@@ -32,8 +32,8 @@ func main() {
 
 	fmt.Printf("The Whole array:%v \n",booking)
 	fmt.Printf("The First value:%v \n",booking[0])
-	fmt.Printf("The Whole array:%v \n",booking)
-	fmt.Printf("The Whole array:%v \n",len(booking))
+	fmt.Printf("Array type::%T \n",booking)
+	fmt.Printf("Array length:%v \n",len(booking))
 
 
 	fmt.Printf(" User %v%v boooked %v tickets...\n", firstName, lastName, userTicket)
