@@ -13,6 +13,8 @@ func main() {
 	fmt.Printf("  we have total of %v tickets and %v  are still available ....\n", conferenceTickets, remainingTickets)
 	fmt.Println("   Get your tickets here to attend....")
 
+	for
+	{
 	var firstName string
 	var lastName string
 	var email string
@@ -41,4 +43,5 @@ func main() {
 
 	fmt.Printf("       Thank you  for booking....\nYou will receive a confirmation email at %v", email)
 	fmt.Printf(" %v tickets remaing for %v\n", remainingTickets, conferenceName)
+	}
 }
