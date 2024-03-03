@@ -43,5 +43,11 @@ func main() {
 
 	fmt.Printf("       Thank you  for booking....\nYou will receive a confirmation email at %v", email)
 	fmt.Printf(" %v tickets remaing for %v\n", remainingTickets, conferenceName)
+	firstNames := []string{}
+        for _,booking := range bookings{
+			var names = strings.Fields(booking)
+			firstNames = append(firstName , names[0])
+		}
+		fmt.Printf("These are all our bookings: %v\n", booking)
 	}
 }
